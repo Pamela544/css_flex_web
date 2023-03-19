@@ -1,0 +1,44 @@
+* {
+  /* se eliminan todos los margin por defecto */
+  margin: 0;
+  /* se eliminan todos los padding por defecto */
+  padding: 0; 
+  /* se elimina el estilo de las listas */
+  list-style-type: none;
+  /* el padding y border se consideran para calcular
+   el tamaño de la caja */
+  box-sizing: border-box;
+  /* se elimina el subrayado de los links <a> */
+  text-decoration: none
+}
+
+body {
+  height: 100%;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+ul {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content:space-around; 
+}
+
+section {
+  background-color: aqua;
+}
+
+footer {
+  background-color: blue;
+} 
